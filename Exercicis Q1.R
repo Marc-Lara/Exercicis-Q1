@@ -56,6 +56,14 @@ L[[3]]
 
 
 
+                                  # Carregar dades
+
+                                            #obrir els datos des de Rstudio
+dat <- read.table("dat1.txt")               # passar a data.frame
+dat
+dat<-read.table("dat1.txt",header=TRUE)     # primera fila com a títol  
+dat
+write.table(dat,file="myData.txt",quote=FALSE) #passar data.frame a dades de Rstudio
 
 
 
